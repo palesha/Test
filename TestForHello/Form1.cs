@@ -15,5 +15,11 @@ namespace TestForHello
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog op = new OpenFileDialog();
+            op.ShowDialog();
+        }
     }
 }
